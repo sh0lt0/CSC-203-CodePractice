@@ -16,4 +16,11 @@ else{
 return "Fail";
 }
 }
+function fun2(uint256 var1) public returns (string memory){
+for(uint256 i = 0; i < var1 ;i++){
+if(var1>= 90){
+return "Excellent";
+}
+}
+}
 }
