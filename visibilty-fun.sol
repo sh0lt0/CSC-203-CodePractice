@@ -16,6 +16,15 @@ contract C1 {
     function fun4() internal returns(uint){
         return x;  // gives error as fun2() is external
     }
+    function deposit() public payable {
+    // accepts Ether
+}
+
+function getBalance() public view returns (uint256) {
+    return address(this).balance; //address(this) = contract's address
+                                 //address(C1).balance
+                                 // address(user).balance
+}
 
     }
 
